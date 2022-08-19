@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Register</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="register" class="register">
+      <h2>Register to Connect!</h2>
+      <div>
+        <form action="#">
+          <div class="split">
+            <div>
+              <label for="fname">First Name: </label>
+              <input type="text" name="fname" id="fname" placeholder="Enter your First Name" required>
+            </div>
+            <div>
+              <label for="lname">Last Name: </label>
+              <input type="text" name="lname" id="lname" placeholder="Enter your Last Name" required class="llname">
+            </div>
+          </div>
+          
+          <label for="number">Phone: </label>
+          <input type="tel" name="number" id="number" placeholder="+234-123-456-7899" required>
+
+          <label for="gender">Gender: </label>
+          <select id="gender" name="gender" required>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Rather Not Say</option>
+          </select>
+
+          <label for="country">Country: </label>
+          <input type="text" id="country" name="country" placeholder="Enter your country name" required>
+
+          <label for="state">State/Province: </label>
+          <input type="text" id="state" name="state" placeholder="Enter your state" required>
+
+          <label for="user">Username: </label>
+          <input type="text" id="user" name="user" placeholder="Enter Username" required>
+
+          <label for="pass">Password: </label>
+          <input type="password" id="pass" name="pass" required>
+          <label for="paswd">Confirm Password: </label>
+          <input type="password" id="paswd" name="paswd" required>
+          
+          <input type="submit" value="Register">
+        </form>
+      </div>
+    </section>
+  </body>
+
+</html>  

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    max-height: 100vh;
+    background: #191d2b;
+    color: #fff;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h2 {
+    margin: 3rem;
+}
+
+table {
+    padding: .5rem;
+    border-radius: 1rem;
+    box-shadow: 
+    -.2rem -.2rem .5rem rgba(0, 0, 0, .3) inset,
+    .2rem .2rem .5rem rgba(0, 0, 0, .9) inset;
+    user-select: none;
+    cursor: pointer;
+}
+
+table th input {
+    background: #fff;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    height: 3.5rem;
+    text-align: right;
+    padding: 1rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    width: 95%;
+}
+
+table tbody tr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+table td {
+    border: .05rem solid #000;
+    padding: .5rem;
+    text-align: center;
+    border-radius: .6rem;
+    margin: .5rem;
+    box-shadow: 
+    -.2rem -.2rem .5rem rgba(0, 0, 0, .3),
+    .2rem .2rem .5rem rgba(0, 0, 0, .7) inset;
+}
+
+table td:active {
+    position: relative;
+    bottom: .2rem;
+    left: .05rem;
+    filter: brightness(1.5);
+}
+
+.func {
+    background: #27ae60;
+    font-weight: 900;
+}
+
+.dot {
+    font-weight: 900;
+}
